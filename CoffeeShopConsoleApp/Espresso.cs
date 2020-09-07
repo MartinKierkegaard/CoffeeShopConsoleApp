@@ -13,6 +13,18 @@ namespace CoffeeShopConsoleApp
             this.coffeeBlend = coffeblend;
         }
 
+        public Espresso(int discount)
+            :base(discount)
+        {
+
+        }
+
+        public Espresso()
+            :base()
+        {
+
+        }
+
         public string CoffeeBlend()
         {
             return coffeeBlend;
