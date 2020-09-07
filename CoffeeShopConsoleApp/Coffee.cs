@@ -32,6 +32,9 @@ namespace CoffeeShopConsoleApp
             if (discount > 5)
                 throw new ArgumentException("Not more than 5 dk in discount");
 
+            if (discount < 0)
+                throw new ArgumentException("discount may be between 1 and 5");
+
             this.Discount = discount;
         }
 
