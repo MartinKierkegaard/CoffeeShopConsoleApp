@@ -1,6 +1,6 @@
 # CoffeeShopConsoleApp
-# Coffee shop assignment 
-## Goal: to have a recap at inheritance, override, abstract, interface and do some simple programming  
+## Coffee shop assignment 
+### Goal: to have a recap at inheritance, override, abstract, interface and do some simple programming  
 
 You are implementing a system for a coffeshop that support their business to keep track of the coffee orders. Until now the shop only sell one type of coffee and therefore only have one class named “coffee” in the It system. But now the owner wants to sell different kind of coffee e.g. Latte and Cortado etc. It’s your job to create and implements these new drinks in the system. 
 
@@ -31,6 +31,7 @@ Make an abstract method in the coffee class called “Strength”, it returns a 
 
 Implement the method in the specialized classes and return the following values according to the schema below 
 Coffee | Strength
+------ | -------
 BlackCoffee | Strong
 Cortado | Medium
 Latte | Weak
@@ -43,6 +44,7 @@ Implement an interface called “IMilk” that tells how much milk the coffee ha
 Implement the “Milk” interface at the “Cortado” and “Latte” class according to the schema below 
 
 Coffee | MlMilk
+------ | -------
 Cortado | 40
 Latte | 200
 
