@@ -30,6 +30,7 @@ Make the coffee class abstract.
 Make an abstract method in the coffee class called “Strength”, it returns a string. Strength says how strong the coffee is and can have one of the values “Weak”, “Medium”, “Strong” 
 
 Implement the method in the specialized classes and return the following values according to the schema below 
+
 Coffee | Strength
 ------ | -------
 BlackCoffee | Strong
